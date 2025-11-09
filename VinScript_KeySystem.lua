@@ -566,7 +566,7 @@ local function createKeySystemGUI()
                 print("[VinScript Key System] ✅ Key validated!")
                 print("[VinScript Key System] Loading VinScript 2.0...")
                 
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Vinom1n/VinScript2.6beta/refs/heads/main/VinScript2.0.lua"))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Vinom1n/VinScript2.6beta/refs/heads/main/VinScript2.6.lua"))()
             end)
         else
             statusLabel.Text = "❌ Invalid key! Please try again."
